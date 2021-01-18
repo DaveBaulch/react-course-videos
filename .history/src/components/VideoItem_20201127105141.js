@@ -1,0 +1,9 @@
+import React from 'react';
+
+const VideoItem = (props) => {
+  // console.log(props.video);
+
+  return <div>{props.video}</div>;
+};
+
+export default VideoItem;
